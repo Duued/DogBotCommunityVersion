@@ -5,4 +5,5 @@
 
 Main language: Discord.py
 
-Helpful resources: (Discord.py docs)["https://discordpy.readthedocs.io/en/stable/api.html"]
+Helpful resources: 
+Discord.py Docs: https://discordpy.readthedocs.io/en/stable/api.html
