@@ -1,2 +1,6 @@
-# DogBotCommunityVersion
-DogBot may be coming back... But this time, the community gets to make it!
+# DogBot - Community Version
+
+
+#Ever want to create your own Discord bot? Don't have the resources, support, or anything else you may need? Contribute to DogBot community version. Made by the community, for the community!
+
+Main language: Discord.py
