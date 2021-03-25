@@ -7,3 +7,6 @@ Main language: Discord.py
 
 Helpful resources: 
 Discord.py Docs: https://discordpy.readthedocs.io/en/stable/api.html
+
+
+Official Dog Bot Community Discord Server: https://discord.com/invite/w9qf753Fnp
