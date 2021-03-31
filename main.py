@@ -1,8 +1,25 @@
-#suggestions to start
+import discord
+from discord.ext import commands
+import sys, os
 
-#do some imports
+token = open("token.txt").read()
+intents = discord.Intents.all()
+bot = commands.Bot(
+    command_prefix=commands.when_mentioned_or('d?'), 
+    intents=intents, 
+    case_insensitive=True
+)
 
-#define the bot as bot, use all discord.Intents
+cogs = ['jishaku']
 
-bot.load_extension("jishaku")
-bot.os(get_env("BOT_TOKEN"))
+for file in os.listdir("cogs"):
+    if file.endswith(".py"):
+        cogs.append(f"cogs.{file[:-3]}")
+
+for cog in cogs:
+    try:
+        bot.load_extension(cog)
+    except Exception as error:
+        print(error)
+
+bot.run(token)
